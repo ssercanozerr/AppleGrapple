@@ -1,0 +1,136 @@
+report@config:load 53.52
+Found a stored user info, but it is no longer valid.
+Permissions were validated successfully.
+report@account:authorize 1013.57
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+Exporting assets from Unity........
+
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 5086.29
+report@config:load 28.29
+Using C:/Users/SERCAN OZER/Desktop/LoopGames/AppleGrapple/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[25382] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at C:/Users/SERCAN OZER/Desktop/LoopGames/AppleGrapple/LunaTemp/stage1/tmp/fonts/LiberationSans-25382/output_0.png (56kb)
+Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset","isOverride":true}
+Resources:
+{}
+report@assets:stage2 5252.24
+report@assets:stage3 201.08
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@config:unity 0.13
+report@config:load 88.06
+report@config:unity 0.34
+report@code:compose 147.47
+Authorized using stored user info.
+report@account:authorize 4.87
+.NET Framework için MSBuild sürüm 17.10.4+10fbfbf2e
+
+Oluşturma başlatıldı: 27.10.2024 22:59:45.
+
+
+
+1 düğümünde "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" projesi (Rebuild hedef).
+
+CoreClean:
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Cinemachine.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" dosyası siliniyor.
+
+  "C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" dosyası siliniyor.
+
+GenerateTargetFrameworkMonikerAttribute:
+Tüm çıkış dosyaları, giriş dosyalarına göre güncel durumda olduğundan "GenerateTargetFrameworkMonikerAttribute" hedefi atlanıyor.
+
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_51 /highentropyva+ /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\com.unity.cinemachine\2.4.0\Cinemachine.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" /reference:"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Abstracts\AbsHealth.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\EnemyController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\EnemyHealthController.cs" "C:\U
+sers\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\GameController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\ItemCollisionController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\PlayerHealthController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\PlayerMovementController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\PoolController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\SwordCollisionController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\SwordController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Controllers\SwordRotateController.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Datas\EnemyInfosSet.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Enums\EntityTypes.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Managers\EnemyManager.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Managers\PlayerManager.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Managers\PoolManager.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\ScriptableObjects\EnemyInfos.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Signals\EnemySignals.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Signals\PlayerSignals.cs" "C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Signals\PoolSignals.cs" Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Signals\PoolSignals.cs(4,13): error CS0234: 'VisualScripting' tür veya ad alanı adı 'Unity' ad alanında yok (bir derleme başvurunuz mu eksik?) [C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  CompilerServer: server - server processed compilation - Scripts
+
+"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" Projesini Oluşturma İşlemi Tamamlandı (Rebuild hedef) -- BAŞARISIZ OLDU.
+
+
+Oluşturma BAŞARISIZ OLDU.
+
+
+
+"C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild hedefi) (1) ->
+(CoreCompile hedefi) -> 
+  C:\Users\SERCAN OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\stage3\processed-scripts\Assets\Scripts\Signals\PoolSignals.cs(4,13): error CS0234: 'VisualScripting' tür veya ad alanı adı 'Unity' ad alanında yok (bir derleme başvurunuz mu eksik?) [C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+    0 Uyarı
+    1 Hata
+
+
+Geçen Süre 00:00:01.00
+
+﻿
+[ error ] $﻿
+Diagnostics gathered successfully
+report@code:build 20609.59
+report@diagnostics:verify 0.54
+
+Fatal error while building C# code
+[ error ] $Project failed to build, check project diagnostics
+Error: DIAGNOSTICS_FATAL_ERROR
+    at Function.checkForErrors (C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\Jakefile.js:6:2986842)
+    at async _0x52cc37.action (C:\Users\SERCAN OZER\Downloads\Loop Games\6.1.1\pipeline\Jakefile.js:6:2991825)

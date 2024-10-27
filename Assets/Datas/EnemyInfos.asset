@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142b3f54cf7795248830a79290037dcd, type: 3}
+  m_Name: EnemyInfos
+  m_EditorClassIdentifier: 
+  enemySpeed: 5
+  enemyMaxHealth: 100
+  enemyInfosSet:
+  - body: {fileID: 21300000, guid: 69e222cb258fc174486cd3a4cb6f2e96, type: 3}
+    leftLeg: {fileID: 21300000, guid: 9e61da0b49af1b64fb09359f5db9da8c, type: 3}
+    rightLeg: {fileID: 21300000, guid: feeeef8d2af8ea349b43bc339ecde847, type: 3}
+    countryFlag: {fileID: 21300000, guid: 61f47416825fab940b62d174edbecf45, type: 3}
+    enemyName: japan_99
+  - body: {fileID: 21300000, guid: 58e5f2d1ba305154dbcce2ab160cc2ca, type: 3}
+    leftLeg: {fileID: 21300000, guid: 2361afd16da38994a863b2a305119363, type: 3}
+    rightLeg: {fileID: 21300000, guid: f7f58a34f6a0b22418da9f0bc8e60168, type: 3}
+    countryFlag: {fileID: 21300000, guid: 9af2ed859a4c2c54eb3dc429b364b016, type: 3}
+    enemyName: chinese_99
+  - body: {fileID: 21300000, guid: 0f466686e7f027e4aad6e8f4f12a0e54, type: 3}
+    leftLeg: {fileID: 21300000, guid: 578347529e8fb5a4ba5b6ac9b9c5cfa9, type: 3}
+    rightLeg: {fileID: 21300000, guid: 357601767729a624fbab5d80d27a7eb6, type: 3}
+    countryFlag: {fileID: 21300000, guid: 713848878cbc69b4f804482d399a66ad, type: 3}
+    enemyName: american_hero
