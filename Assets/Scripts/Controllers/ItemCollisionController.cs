@@ -13,9 +13,12 @@ public class ItemCollisionController : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Enemy"))
         {
             GameObject sword = PoolSignals.Instance.onGetObjectFromPool?.Invoke(EntityTypes.Sword);
-            sword.transform.SetParent(collision.transform);
+            
+            Transform swordsParent = collision.transform.Find("Swords");
+            
+            sword.transform.SetParent(swordsParent);
 
-            SetSwordPositionAndRotation(collision.transform);
+            SetSwordPositionAndRotation(swordsParent);
 
             gameObject.SetActive(false);
         }

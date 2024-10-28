@@ -1,1 +1,0 @@
-namespace Assets.Scripts.Controllers {}

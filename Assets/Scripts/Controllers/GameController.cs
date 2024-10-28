@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private int itemCount;
     [SerializeField] private int enemyCount;
+    [SerializeField] private GameObject endPanel;
 
     private void Start()
     {
@@ -22,6 +23,11 @@ public class GameController : MonoBehaviour
         {
             GetObject(EntityTypes.Enemy);
         }
+    }
+
+    public void OnGameOver()
+    {
+        endPanel.SetActive(true);
     }
 
     private GameObject GetObject(EntityTypes entityTypes)

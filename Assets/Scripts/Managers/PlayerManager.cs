@@ -12,11 +12,13 @@ namespace Assets.Scripts.Managers
         private void OnEnable()
         {
             PlayerSignals.Instance.onDecreaseHealth += playerHealthController.DecreaseHealth;
+            PlayerSignals.Instance.onCheckHealth += playerHealthController.CheckHealth;
         }
 
         private void OnDisable()
         {
             PlayerSignals.Instance.onDecreaseHealth -= playerHealthController.DecreaseHealth;
+            PlayerSignals.Instance.onCheckHealth -= playerHealthController.CheckHealth;
         }
     }
 }

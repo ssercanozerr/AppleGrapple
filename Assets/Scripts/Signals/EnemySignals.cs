@@ -7,8 +7,6 @@ namespace Assets.Scripts.Signals
     {
         public static EnemySignals Instance;
 
-        public UnityAction<float> onDecreaseHealth;
-
         private void Awake()
         {
             if (Instance != null && Instance != this)

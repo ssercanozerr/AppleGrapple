@@ -4,8 +4,5 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts.Controllers
 {
-    public class EnemyHealthController : AbsHealth 
-    {
-
-    }
+    public class EnemyHealthController : AbsHealth { }
 }

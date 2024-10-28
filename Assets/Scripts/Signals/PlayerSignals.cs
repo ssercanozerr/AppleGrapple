@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,6 +10,7 @@ namespace Assets.Scripts.Signals
         public static PlayerSignals Instance;
 
         public UnityAction<float> onDecreaseHealth;
+        public Func<bool> onCheckHealth;
 
         private void Awake()
         {

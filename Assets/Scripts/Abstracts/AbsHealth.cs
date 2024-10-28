@@ -16,6 +16,11 @@ namespace Assets.Scripts.Abstracts
             UpdateHealthBar();
         }
 
+        public bool CheckHealth()
+        {
+            return _health == 0;
+        }
+
         public void DecreaseHealth(float damage)
         {
             _health -= damage;

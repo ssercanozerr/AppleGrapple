@@ -1,0 +1,661 @@
+{
+  "BuildID": "14ae1b73-9661-4d6e-890e-ef64f86962aa",
+  "Command": "project:build",
+  "ProjectID": "78a7024eb5762b2498a403cdfa677ba7",
+  "ProjectStateHash": "eb660842c805394c998e6804045d8eb23db287eeacea531b52a7c3244c29f6b6",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 3,
+  "StartTime": 1730060792231,
+  "EndTime": 1730060804105,
+  "PlaygroundUserID": 18631,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2022.3.51f1",
+  "LunaVersion": "6.1.1",
+  "LogCount": 27,
+  "Logs": [
+    {
+      "LogID": "5956cfad-32f5-4c97-9358-76fd50ba66be",
+      "Order": 24,
+      "Timestamp": 1730060804460,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: Playable.InstallFullGame",
+      "Details": [
+        "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "DetailsValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "8feda0e0-191f-4a5f-969c-d99daba84cea",
+      "Order": 24,
+      "Timestamp": 1730060804461,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: LifeCycle.GameEnded",
+      "Details": [
+        "You are not using the Luna API: LifeCycle.GameEnded. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "DetailsValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "35f9a119-818e-4fa8-a92a-54e0ad8dedff",
+      "Order": 24,
+      "Timestamp": 1730060804461,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "b3ee31b8-e0b6-4965-a6d7-e06e4f72edbb",
+      "Order": 24,
+      "Timestamp": 1730060804463,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "f73ea04c-b617-45ec-8ae6-ba65940095ee",
+      "Order": 0,
+      "Timestamp": 1730060793859,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1030",
+      "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+      "Details": [
+        "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF - Fallback",
+        "Dynamic"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "2c73ac0f-5bb2-444e-b92e-26128a2cb92e",
+      "Order": 1,
+      "Timestamp": 1730060795787,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1026",
+      "Description": "This Cinemachine version is not supported",
+      "Details": [
+        "The incorrect Cinemachine version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "c681524b-593c-4be6-9833-e57cb0646dbd",
+      "Order": 2,
+      "Timestamp": 1730060795787,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1015",
+      "Description": "This TMP version is not fully supported",
+      "Details": [
+        "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "0729bd5d-3ee6-4856-be58-009e50fdec5e",
+      "Order": 3,
+      "Timestamp": 1730060795787,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [
+        "com.unity.timeline (1.7.6)"
+      ],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "C:/Users/SERCAN OZER/Desktop/LoopGames/AppleGrapple/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "cb8b7f98-8fa8-47d7-8363-4882787bdbaf",
+      "Order": 4,
+      "Timestamp": 1730060795788,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF Atlas",
+        "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "59b1717a-17d1-4f6a-a19f-8c5f404e53a2",
+      "Order": 5,
+      "Timestamp": 1730060804100,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS8124",
+      "Description": "Tuple must contain at least two elements.",
+      "Details": [
+        "Mathf.Cos(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 42,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "3abb7e6b-9c01-4aef-871c-196137607b01",
+      "Order": 6,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1026",
+      "Description": ") expected",
+      "Details": [
+        "Mathf.Cos(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 42,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "ebdd3107-3dc2-4c9f-81f0-db88f5a6174b",
+      "Order": 7,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1003",
+      "Description": "Syntax error, ',' expected",
+      "Details": [
+        "Mathf.Sin(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 43,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "01ceac03-46b1-42e1-bf40-1e890485e57f",
+      "Order": 8,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1002",
+      "Description": "; expected",
+      "Details": [
+        "Mathf.Sin(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 43,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "35b25d8a-bd22-40d6-95c4-ddabd2834bc1",
+      "Order": 9,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1002",
+      "Description": "; expected",
+      "Details": [
+        "Mathf.Sin(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 43,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "e3be0a02-57bb-494b-9be3-89823cf7404a",
+      "Order": 10,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1513",
+      "Description": "} expected",
+      "Details": [
+        "Mathf.Sin(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 43,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "f7aee7b7-d485-4971-881f-8b0b220403b1",
+      "Order": 11,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1002",
+      "Description": "; expected",
+      "Details": [
+        "0f"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 44,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "fd84dbb9-ec7a-4591-ae8f-9d6b78e57c68",
+      "Order": 12,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1513",
+      "Description": "} expected",
+      "Details": [
+        "0f"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 44,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "fa8c704e-ed4c-40eb-862f-e7c08888fc8d",
+      "Order": 13,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1513",
+      "Description": "} expected",
+      "Details": [
+        "0f"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 44,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "a326a115-527d-447b-83fc-34a71af6f539",
+      "Order": 14,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS1022",
+      "Description": "Type or namespace definition, or end-of-file expected",
+      "Details": [
+        "}"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 54,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "86e00ae5-a27c-4cbe-bec0-ff8fe936eed2",
+      "Order": 15,
+      "Timestamp": 1730060804102,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS0841",
+      "Description": "Cannot use local variable 'Mathf' before it is declared",
+      "Details": [
+        "float angleRad = angle * Mathf.Deg2Rad;"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 39,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "c59240f1-fc33-4175-911a-35672fcad606",
+      "Order": 16,
+      "Timestamp": 1730060804104,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS0426",
+      "Description": "The type name 'Cos' does not exist in the type 'Mathf'",
+      "Details": [
+        "Mathf.Cos(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 42,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "6dd65575-8fd2-4ead-9d47-4ce76bb3be22",
+      "Order": 17,
+      "Timestamp": 1730060804104,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS8181",
+      "Description": "'new' cannot be used with tuple type. Use a tuple literal expression instead.",
+      "Details": [
+        "Vector3 swordPosition = new(\r\n                Mathf.Cos(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 41,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "b07e228d-ff02-4a8d-a113-cc93586b3ad0",
+      "Order": 18,
+      "Timestamp": 1730060804104,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS0103",
+      "Description": "The name 'Sin' does not exist in the current context",
+      "Details": [
+        "Mathf.Sin(angleRad) * radius,"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 43,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "c08ab518-f9bc-4451-aaa6-11cdf5b9183d",
+      "Order": 19,
+      "Timestamp": 1730060804104,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS0103",
+      "Description": "The name 'i' does not exist in the current context",
+      "Details": [
+        "swords[i].position = characterTransform.position + swordPosition;"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 47,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "b56df6ea-c58e-4e7c-b34b-77ac68966ac0",
+      "Order": 20,
+      "Timestamp": 1730060804104,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS0103",
+      "Description": "The name 'swordPosition' does not exist in the current context",
+      "Details": [
+        "swords[i].position = characterTransform.position + swordPosition;"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 47,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "eecbef0a-3f0a-45d4-af2a-4fffc0ef9351",
+      "Order": 21,
+      "Timestamp": 1730060804104,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS0103",
+      "Description": "The name 'i' does not exist in the current context",
+      "Details": [
+        "Vector3 direction = swords[i].position - characterTransform.position;"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 49,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    },
+    {
+      "LogID": "d7877d10-1399-4a39-a789-bf7eed21488b",
+      "Order": 22,
+      "Timestamp": 1730060804104,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "CS0103",
+      "Description": "The name 'i' does not exist in the current context",
+      "Details": [
+        "swords[i].rotation = Quaternion.Euler(0, 0, angleToPlayer);"
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 51,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Controllers\\ItemCollisionController.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    }
+  ]
+}
