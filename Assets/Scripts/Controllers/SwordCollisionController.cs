@@ -9,8 +9,22 @@ namespace Assets.Scripts.Controllers
         [SerializeField] private int killPrizeCount;
         [SerializeField] private float spawnRadius;
 
+        private Vector3 spawnLocalPosition;
+
+        private void Start()
+        {
+            spawnLocalPosition = transform.localPosition;
+        }
+
+        private void Update()
+        {
+            transform.localPosition = spawnLocalPosition;
+        }
+
         private void OnCollisionEnter2D(Collision2D collision)
         {
+
+            
             if (collision.gameObject.CompareTag("Player"))
             {
                 PlayerSignals.Instance.onDecreaseHealth?.Invoke(35);
@@ -35,7 +49,9 @@ namespace Assets.Scripts.Controllers
             else if (collision.gameObject.CompareTag("Sword"))
             {
                 gameObject.SetActive(false);
-                collision.gameObject.SetActive(false);
+                SwordRotateController swordRotateController = gameObject.GetComponentInParent<SwordRotateController>();
+                transform.parent = null;
+                swordRotateController.SetSwordPositionAndRotation();
             }
         }
 
@@ -47,6 +63,11 @@ namespace Assets.Scripts.Controllers
                 Vector2 randomOffset = Random.insideUnitCircle * spawnRadius;
                 obj.transform.position = collision.gameObject.transform.position + (Vector3)randomOffset;
             }
+        }
+
+        internal void ResetPosition()
+        {
+            spawnLocalPosition = transform.localPosition;
         }
     }
 }
