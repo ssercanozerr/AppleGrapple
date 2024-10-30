@@ -11,9 +11,16 @@ namespace Assets.Scripts.Controllers
 
         private Vector3 spawnLocalPosition;
 
+        private static int activeEnemyCount;
+
         private void Start()
         {
             spawnLocalPosition = transform.localPosition;
+
+            if (activeEnemyCount == 0)
+            {
+                activeEnemyCount = FindObjectsOfType<EnemyHealthController>().Length;
+            }
         }
 
         private void Update()
@@ -42,8 +49,14 @@ namespace Assets.Scripts.Controllers
                 if (collision.gameObject.GetComponent<EnemyHealthController>().CheckHealth())
                 {
                     collision.gameObject.SetActive(false);
+                    activeEnemyCount--;
 
                     GetPrize(collision);
+
+                    if (activeEnemyCount <= 0)
+                    {
+                        GameSignals.Instance.onGameOver?.Invoke();
+                    }
                 }
             }
             else if (collision.gameObject.CompareTag("Sword"))

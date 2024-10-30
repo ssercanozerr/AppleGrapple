@@ -5,5 +5,6 @@
         Item,
         Sword,
         Enemy,
+        ScratchMask
     }
 }

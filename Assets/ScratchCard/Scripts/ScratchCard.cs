@@ -195,7 +195,7 @@ namespace ScratchCardAsset
 			cardRenderer.IsScratched = false;
 		}
 
-		private void TryScratchHole(Vector2 position, float pressure)
+		public void TryScratchHole(Vector2 position, float pressure)
 		{
 			cardRenderer.ScratchHole(position, pressure);
 			var localPosition = ScratchData.GetLocalPosition(position);

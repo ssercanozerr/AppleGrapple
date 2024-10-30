@@ -7,6 +7,9 @@ namespace Assets.Scripts.Managers
 {
     public class EnemyStateManager : MonoBehaviour
     {
+        [SerializeField] private float detectionRange;
+        [SerializeField] private float speed;
+
         private EnemyBaseState _currentState;
         public EnemyLootState LootState = new EnemyLootState();
         public EnemyAttackState AttackState  = new EnemyAttackState();
@@ -16,9 +19,6 @@ namespace Assets.Scripts.Managers
         public float Speed => speed;
         public GameObject CurrentItem { get; set; }
         public GameObject CurrentTarget { get; set; }
-
-        [SerializeField] private float detectionRange;
-        [SerializeField] private float speed;
 
         private void Start()
         {

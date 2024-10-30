@@ -1,5 +1,6 @@
 using Assets.Scripts.Enums;
 using Assets.Scripts.Signals;
+using System.Collections;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
@@ -8,6 +9,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private float xMax;
     [SerializeField] private float yMin;
     [SerializeField] private float yMax;
+    [SerializeField] private float itemSpawnTime;
 
     [SerializeField] private int itemCount;
     [SerializeField] private int enemyCount;
@@ -23,6 +25,8 @@ public class GameController : MonoBehaviour
         {
             GetObject(EntityTypes.Enemy);
         }
+
+        StartCoroutine(RespawnItems());
     }
 
     public void OnGameOver()
@@ -43,5 +47,18 @@ public class GameController : MonoBehaviour
         float randomY = Random.Range(yMin, yMax);
 
         obj.transform.position = new Vector2 (randomX, randomY);
+    }
+
+    private IEnumerator RespawnItems()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(itemSpawnTime);
+
+            for (int i = 0; i < itemCount; i++)
+            {
+                GetObject(EntityTypes.Item);
+            }
+        }
     }
 }

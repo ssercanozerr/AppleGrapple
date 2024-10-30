@@ -3,9 +3,11 @@ using UnityEngine.Events;
 
 namespace Assets.Scripts.Signals
 {
-    public class EnemySignals : MonoBehaviour
+    public class ScratchCardSignals : MonoBehaviour
     {
-        public static EnemySignals Instance;
+        public static ScratchCardSignals Instance;
+        
+        public UnityAction<GameObject> onScratchHole;
 
         private void Awake()
         {

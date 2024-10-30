@@ -1,8 +1,11 @@
+using Assets.Scripts.Enums;
+using Assets.Scripts.Signals;
 using UnityEngine;
 
 public class PlayerMovementController : MonoBehaviour
 {
     [SerializeField] private float speed;
+
 
     private Rigidbody2D _rb;
     private Animator _animator;
@@ -15,6 +18,7 @@ public class PlayerMovementController : MonoBehaviour
         _bodyTransform = transform.Find("Body");
     }
 
+
     private void FixedUpdate()
     {
         MoveMousePosition();
@@ -26,20 +30,29 @@ public class PlayerMovementController : MonoBehaviour
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 targetPosition = Vector2.Lerp(transform.position, mousePosition, speed * Time.fixedDeltaTime);
-            Vector2 direction = mousePosition - (Vector2)transform.position;
+            SetPlayerRotation(mousePosition);
 
-            if (direction.x > 0)
-            {
-                _bodyTransform.rotation = Quaternion.Euler(0, 0, 0);
-            }
-            else if (direction.x < 0)
-            {
-                _bodyTransform.rotation = Quaternion.Euler(0, 180, 0);
-            }
+            GameObject stratchMask = PoolSignals.Instance.onGetObjectFromPool?.Invoke(EntityTypes.ScratchMask);
+            stratchMask.transform.position = transform.position;
+            ScratchCardSignals.Instance.onScratchHole?.Invoke(stratchMask);
 
             _rb.MovePosition(targetPosition);
             _animator.SetBool("Walk", true);
         }
         else { _animator.SetBool("Walk", false); }
+    }
+
+    private void SetPlayerRotation(Vector2 mousePosition)
+    {
+        Vector2 direction = mousePosition - (Vector2)transform.position;
+
+        if (direction.x > 0)
+        {
+            _bodyTransform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        else if (direction.x < 0)
+        {
+            _bodyTransform.rotation = Quaternion.Euler(0, 180, 0);
+        }
     }
 }
