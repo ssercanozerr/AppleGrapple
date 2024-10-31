@@ -104,15 +104,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.cinemachine": {
-      "version": "2.10.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.test-framework": "1.1.31"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.collab-proxy": {
       "version": "2.5.2",
       "depth": 0,
@@ -197,18 +188,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.timeline": {
-      "version": "1.7.6",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.director": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ugui": {
       "version": "1.0.0",
       "depth": 0,
@@ -228,8 +207,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "jillejr.newtonsoft.json-for-unity": {
+      "version": "13.0.102",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://npm.cloudsmith.io/jillejr/newtonsoft-json-for-unity"
+    },
     "uk.lunalabs.luna": {
-      "version": "file:../../../../Downloads/Loop Games/6.1.1/scripts",
+      "version": "file:../../../../Downloads/Loop Games/Zip/6.1.1/scripts",
       "depth": 0,
       "source": "local",
       "dependencies": {}

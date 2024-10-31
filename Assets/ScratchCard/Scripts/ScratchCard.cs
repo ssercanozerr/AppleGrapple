@@ -1,4 +1,5 @@
 ﻿using System;
+using Assets.Scripts.Signals;
 using ScratchCardAsset.Core;
 using ScratchCardAsset.Core.InputData;
 using ScratchCardAsset.Core.ScratchData;
@@ -13,9 +14,9 @@ namespace ScratchCardAsset
 	/// </summary>
 	public class ScratchCard : MonoBehaviour
 	{
-		#region Events
+        #region Events
 
-		public event Action<ScratchCard> OnInitialized;
+        public event Action<ScratchCard> OnInitialized;
 		public event Action<RenderTexture> OnRenderTextureInitialized;
 		public event Action<Vector2, float> OnScratchHole;
 		public event Action<Vector2, float> OnScratchHoleSucceed;
@@ -79,8 +80,15 @@ namespace ScratchCardAsset
 			Init();
 		}
 
-		private void OnDisable()
+        private void OnEnable()
+        {
+			ScratchSignals.Instance.onTryScratchHole += TryScratchHole;
+        }
+
+        private void OnDisable()
 		{
+			ScratchSignals.Instance.onTryScratchHole -= TryScratchHole;
+
 			if (!initialized)
 				return;
 			
@@ -100,13 +108,13 @@ namespace ScratchCardAsset
 			{
 				cardRenderer.IsScratched = false;
 			}
-		}
+        }
 
-		#endregion
+        #endregion
 
-		#region Initializaion
+        #region Initializaion
 
-		public void Init()
+        public void Init()
 		{
 			if (ScratchData == null)
 			{

@@ -1,0 +1,327 @@
+{
+  "BuildID": "684dde3f-4e91-4097-aca1-b13f29ed34d3",
+  "Command": "project:recompile",
+  "ProjectID": "78a7024eb5762b2498a403cdfa677ba7",
+  "ProjectStateHash": "fed422cc4bd2ad8358fee826367015935b7bd322d136cf18ca642771b7844a20",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1730330865318,
+  "EndTime": 1730330869338,
+  "PlaygroundUserID": 18631,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2022.3.51f1",
+  "LunaVersion": "6.1.1",
+  "LogCount": 13,
+  "Logs": [
+    {
+      "LogID": "cab237ef-5d0f-4e27-96c2-2889a385a042",
+      "Order": 6,
+      "Timestamp": 1730330869801,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "LP3009",
+      "Description": "You are using an unsupported feature: GameObject.FindGameObjectWithTag",
+      "Details": [
+        "You are using a function/component which are currently not supported in Luna: GameObject.FindGameObjectWithTag. "
+      ],
+      "DescriptionValues": [
+        "GameObject.",
+        "FindGameObjectWithTag"
+      ],
+      "DetailsValues": [
+        "GameObject.",
+        "FindGameObjectWithTag"
+      ],
+      "LogCount": 1,
+      "LinePosition": 55,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\Scripts\\Managers\\EnemyStateManager.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "bd06489f-027e-4cf8-ad03-514db917d547",
+      "Order": 6,
+      "Timestamp": 1730330869846,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "LP3013",
+      "Description": "You are using an unsupported JSON feature: JsonUtility.",
+      "Details": [
+        "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+      ],
+      "DescriptionValues": [
+        "JsonUtility"
+      ],
+      "DetailsValues": [
+        "JsonUtility"
+      ],
+      "LogCount": 1,
+      "LinePosition": 15,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\ScratchCard\\Scripts\\Animation\\ScratchAnimation.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "3382b5a5-4189-4a20-9809-712e72bcd656",
+      "Order": 6,
+      "Timestamp": 1730330869846,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "LP3013",
+      "Description": "You are using an unsupported JSON feature: JsonUtility.",
+      "Details": [
+        "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+      ],
+      "DescriptionValues": [
+        "JsonUtility"
+      ],
+      "DetailsValues": [
+        "JsonUtility"
+      ],
+      "LogCount": 1,
+      "LinePosition": 20,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\ScratchCard\\Scripts\\Animation\\ScratchAnimation.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "1473af30-1d7a-42f8-b621-7c09a391e9fd",
+      "Order": 6,
+      "Timestamp": 1730330869854,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "LP3013",
+      "Description": "You are using an unsupported JSON feature: JsonUtility.",
+      "Details": [
+        "You are using an unsupported JSON feature: JsonUtility. Please use Newtonsoft.JSON instead. "
+      ],
+      "DescriptionValues": [
+        "JsonUtility"
+      ],
+      "DetailsValues": [
+        "JsonUtility"
+      ],
+      "LogCount": 1,
+      "LinePosition": 76,
+      "FilePath": "C:\\Users\\SERCAN OZER\\Desktop\\LoopGames\\AppleGrapple\\Assets\\ScratchCard\\Scripts\\Animation\\ScratchAnimationRecorder.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "9fe945e4-8527-42ef-a1d4-00a98f1a43a3",
+      "Order": 6,
+      "Timestamp": 1730330869893,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: Playable.InstallFullGame",
+      "Details": [
+        "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "DetailsValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "02cceb26-1937-4615-a4d7-45cfc7760909",
+      "Order": 6,
+      "Timestamp": 1730330869894,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: LifeCycle.GameEnded",
+      "Details": [
+        "You are not using the Luna API: LifeCycle.GameEnded. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "DetailsValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "1a97cbb0-b0be-4a58-b955-687050e949fb",
+      "Order": 6,
+      "Timestamp": 1730330869894,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "0060c69f-267c-4157-ad02-eafa5dd019f6",
+      "Order": 6,
+      "Timestamp": 1730330869896,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "99830ef1-9d40-4692-aa3c-a03720bbf866",
+      "Order": 0,
+      "Timestamp": 1730330689018,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1030",
+      "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+      "Details": [
+        "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF - Fallback",
+        "Dynamic"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "a1147a66-e5a7-48a1-88b5-6cc324850f06",
+      "Order": 1,
+      "Timestamp": 1730330693323,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1026",
+      "Description": "This Cinemachine version is not supported",
+      "Details": [
+        "The incorrect Cinemachine version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "5aa53718-3c20-473b-9646-44c313b55669",
+      "Order": 2,
+      "Timestamp": 1730330693323,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1015",
+      "Description": "This TMP version is not fully supported",
+      "Details": [
+        "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "d8030842-f4d6-4bfb-80a5-cab429889d4b",
+      "Order": 3,
+      "Timestamp": 1730330693323,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [
+        "com.unity.timeline (1.7.6)"
+      ],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "C:/Users/SERCAN OZER/Desktop/LoopGames/AppleGrapple/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "bf6d598f-441a-4e14-abc8-abb15a8ebb14",
+      "Order": 4,
+      "Timestamp": 1730330693326,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF Atlas",
+        "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

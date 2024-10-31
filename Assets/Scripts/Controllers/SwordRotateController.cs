@@ -9,7 +9,6 @@ namespace Assets.Scripts.Controllers
         [SerializeField] private float rotationSpeed;
         [SerializeField] private float radius;
 
-
         private void Update()
         {
             transform.RotateAround(transform.parent.position, Vector3.forward, rotationSpeed * Time.deltaTime);
@@ -32,7 +31,7 @@ namespace Assets.Scripts.Controllers
                 float angle = i * (360f / swordCount);
                 float angleRad = angle * Mathf.Deg2Rad;
 
-                Vector3 swordPosition = new(
+                Vector3 swordPosition = new Vector3(
                     Mathf.Cos(angleRad) * radius,
                     Mathf.Sin(angleRad) * radius,
                     0f

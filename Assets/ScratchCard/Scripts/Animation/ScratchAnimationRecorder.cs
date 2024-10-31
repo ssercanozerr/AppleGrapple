@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Newtonsoft.Json; // Newtonsoft namespace ekleyin
 using ScratchCardAsset.Core;
 using ScratchCardAsset.Core.InputData;
 using UnityEngine;
@@ -13,7 +14,7 @@ namespace ScratchCardAsset.Animation
         public bool FlushOnDestroy = true;
 
         [SerializeReference] private List<BaseScratch> scratches = new List<BaseScratch>();
-        
+
         private void Start()
         {
             ScratchCard.Input.OnScratchHoleExtended += OnScratchHole;
@@ -29,14 +30,14 @@ namespace ScratchCardAsset.Animation
                 Flush();
             }
         }
-        
+
         private void OnValidate()
         {
             if (ScratchCard == null)
             {
-                if (TryGetComponent(out ScratchCard)) 
+                if (TryGetComponent(out ScratchCard))
                     return;
-                
+
                 if (TryGetComponent<ScratchCardManager>(out var scratchCardManager))
                 {
                     if (scratchCardManager.Card != null)
@@ -73,7 +74,8 @@ namespace ScratchCardAsset.Animation
 #if UNITY_EDITOR
                 UnityEditor.EditorUtility.SetDirty(ScratchAnimation);
 #endif
-                var scratchAnimationJson = JsonUtility.ToJson(ScratchAnimation);
+                // Newtonsoft.JSON ile JSON formatýna dönüþtürme
+                var scratchAnimationJson = JsonConvert.SerializeObject(ScratchAnimation);
                 Debug.Log(scratchAnimationJson);
                 scratches.Clear();
             }
@@ -88,7 +90,7 @@ namespace ScratchCardAsset.Animation
                 {
                     imageSize = ScratchCard.ScratchData.TextureSize;
                 }
-                
+
                 var scratch = new BaseScratch
                 {
                     Position = hole.Position / imageSize,
@@ -108,13 +110,13 @@ namespace ScratchCardAsset.Animation
                 {
                     imageSize = ScratchCard.ScratchData.TextureSize;
                 }
-                
+
                 var scratch = new LineScratch
                 {
                     Position = lineStart.Position / imageSize,
                     BrushScale = lineStart.Pressure * ScratchCard.BrushSize,
                     Time = lineStart.Time,
-                    
+
                     PositionEnd = lineEnd.Position / imageSize,
                     BrushScaleEnd = lineEnd.Pressure * ScratchCard.BrushSize,
                     TimeEnd = lineEnd.Time

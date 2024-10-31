@@ -1,0 +1,41 @@
+report@config:load 35.80
+Authorized using stored user info.
+report@account:authorize 14.66
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+Exporting assets from Unity........
+
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 5071.84
+report@config:load 20.10
+Using C:/Users/SERCAN OZER/Desktop/LoopGames/AppleGrapple/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[26058] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at C:/Users/SERCAN OZER/Desktop/LoopGames/AppleGrapple/LunaTemp/stage1/tmp/fonts/LiberationSans-26058/output_0.png (56kb)
+Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset","isOverride":true}
+Resources:
+{}
+report@assets:stage2 3807.58
+report@assets:stage3 229.95
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@config:unity 0.13
+report@config:load 46.06
+report@config:unity 2.67
+﻿
+[ error ] $﻿
+Diagnostics gathered successfully
+.NET Core 3 runtime not found.
+.NET Core 3 runtime not found.
+Microsoft (R) Visual C# Derleyicisi sürüm 4.3.1-3.22526.13 (41a5af9d)
+Telif hakkı (C) Microsoft Corporation. Tüm hakları saklıdır.
+
+
+
+error CS2001: 'C:\Users\SERCAN OZER\Downloads\Loop Games\Zip\6.1.1\OZER\Desktop\LoopGames\AppleGrapple\LunaTemp\Assemblies\stage_1\Assembly-CSharp.dll' kaynak dosyası bulunamadı.
+
+[ error ] $1
+[ error ] $Assets bundling failed
+Error: CODE_BUNDLE
+    at _0x52cc37.action (C:\Users\SERCAN OZER\Downloads\Loop Games\Zip\6.1.1\pipeline\Jakefile.js:6:2937228)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

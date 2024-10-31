@@ -12,9 +12,9 @@ namespace Assets.Scripts.Managers
 
         private EnemyBaseState _currentState;
         public EnemyLootState LootState = new EnemyLootState();
-        public EnemyAttackState AttackState  = new EnemyAttackState();
-        public EnemyFleeState FleeState  = new EnemyFleeState();
-     
+        public EnemyAttackState AttackState = new EnemyAttackState();
+        public EnemyFleeState FleeState = new EnemyFleeState();
+
         public float DetectionRange => detectionRange;
         public float Speed => speed;
         public GameObject CurrentItem { get; set; }

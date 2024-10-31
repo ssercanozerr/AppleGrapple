@@ -1,10 +1,10 @@
-using Assets.Scripts.Enums;
-using Assets.Scripts.Signals;
 using UnityEngine;
 
 public class PlayerMovementController : MonoBehaviour
 {
     [SerializeField] private float speed;
+    
+    public RectTransform ui;
 
 
     private Rigidbody2D _rb;
@@ -26,15 +26,11 @@ public class PlayerMovementController : MonoBehaviour
 
     private void MoveMousePosition()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetKey(KeyCode.D))
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 targetPosition = Vector2.Lerp(transform.position, mousePosition, speed * Time.fixedDeltaTime);
             SetPlayerRotation(mousePosition);
-
-            GameObject stratchMask = PoolSignals.Instance.onGetObjectFromPool?.Invoke(EntityTypes.ScratchMask);
-            stratchMask.transform.position = transform.position;
-            ScratchCardSignals.Instance.onScratchHole?.Invoke(stratchMask);
 
             _rb.MovePosition(targetPosition);
             _animator.SetBool("Walk", true);

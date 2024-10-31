@@ -8,6 +8,7 @@ TagManager:
   - PickUpItem
   - Sword
   - Enemy
+  - Canvas
   layers:
   - Default
   - TransparentFX
